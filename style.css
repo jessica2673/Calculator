@@ -23,14 +23,33 @@ body {
     display: flex;
 }
 
+.placeholder {
+    min-height: 50px;
+    min-width: 50px;
+}
+
 button {
     justify-content: center;
     align-items: center;
     border: none;
-    background-color: grey;
+    background-color: rgb(12, 6, 99);
     color: aliceblue;
     min-height: 50px;
     min-width: 50px;
     font-size: 25px;
     outline: 1px;
+}
+
+.operator {
+    background-color: rgba(186, 171, 58, 0.998);
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: navy;
+}
+
+.operator:hover {
+    color:rgba(186, 171, 58, 0.998);
+    background-color: aliceblue;
 }

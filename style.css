@@ -1,8 +1,15 @@
 body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(aliceblue, rgb(100, 185, 255));;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
+}
+
+h1 + p {
+    font-size: 20px;
 }
 
 #textBox{
@@ -17,6 +24,7 @@ body {
     border-width: 1.5px;
     margin: 20px;
     border-radius: 9px;
+    background-color: whitesmoke;
 }
 
 .row {
@@ -53,3 +61,4 @@ button:hover {
     color:rgba(186, 171, 58, 0.998);
     background-color: aliceblue;
 }
+
